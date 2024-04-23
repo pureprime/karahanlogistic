@@ -37,4 +37,15 @@
    .whatsapp-widget a:hover {
      background-image: url('hoverwhatsap.png'); /* Hover olduğunda başka bir resim */
      background-color: white;
-   }
+   }.navbar {
+    font-weight: 600;
+    font-family: 'Popins',sans-serif !important;
+}
+.banner{
+    margin: 0;
+       
+        color: white;
+        padding: 40px;
+       
+     box-sizing: content-box;
+       }

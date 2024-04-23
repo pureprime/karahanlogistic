@@ -1,5 +1,5 @@
 *{
-    font-family: "Nunito", sans-serif !important;
+    font-family: 'Popins',sans-serif !important;
 
 }
 .card{
@@ -44,4 +44,8 @@ justify-content: center;
     font-weight: 700;
     border: 1px solid white;
 
+}
+.navbar {
+    font-weight: 600;
+    font-family: 'Popins',sans-serif !important;
 }
