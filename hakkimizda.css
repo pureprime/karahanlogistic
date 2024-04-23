@@ -12,9 +12,7 @@
  height: 64px;
 
   } 
- 
    .whatsapp-widget a {
-    
     background-color: green; /* WhatsApp butonunun rengini istediğiniz gibi değiştirebilirsiniz */
     border-radius: 35px;
     z-index: 1000;
@@ -25,7 +23,8 @@
      background-image: url('whatsapico.png'); /* Normal resim */
      background-size: contain;
      background-repeat: no-repeat;
-   
+     width: 64px;
+     height: 64px;
      transition: background-image 0.3s ease; /* Geçiş efekti */
    }
    

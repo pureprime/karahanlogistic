@@ -4,3 +4,37 @@
     flex-direction: column;
     justify-content: center
 }
+.whatsapp-widget {
+    position: fixed;
+  bottom: 20px;
+  right: 20px;
+ 
+  border-radius: 35px;
+  z-index: 1000;
+  background-image: url(whatsapico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+ width: 64px;
+ height: 64px;
+
+  } 
+   .whatsapp-widget a {
+    background-color: green; /* WhatsApp butonunun rengini istediğiniz gibi değiştirebilirsiniz */
+    border-radius: 35px;
+    z-index: 1000;
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     background-image: url('whatsapico.png'); /* Normal resim */
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 64px;
+     height: 64px;
+     transition: background-image 0.3s ease; /* Geçiş efekti */
+   }
+   
+   .whatsapp-widget a:hover {
+     background-image: url('hoverwhatsap.png'); /* Hover olduğunda başka bir resim */
+     background-color: white;
+   }
