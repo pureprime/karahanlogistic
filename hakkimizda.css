@@ -1,0 +1,73 @@
+.whatsapp-widget {
+    position: fixed;
+  bottom: 20px;
+  right: 20px;
+ 
+  border-radius: 35px;
+  z-index: 1000;
+  background-image: url(whatsapico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+ width: 64px;
+ height: 64px;
+
+  } 
+ 
+   .whatsapp-widget a {
+    
+    background-color: green; /* WhatsApp butonunun rengini istediğiniz gibi değiştirebilirsiniz */
+    border-radius: 35px;
+    z-index: 1000;
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     background-image: url('whatsapico.png'); /* Normal resim */
+     background-size: contain;
+     background-repeat: no-repeat;
+   
+     transition: background-image 0.3s ease; /* Geçiş efekti */
+   }
+   
+   .whatsapp-widget a:hover {
+     background-image: url('hoverwhatsap.png'); /* Hover olduğunda başka bir resim */
+     background-color: white;
+   }
+   .banner{
+margin: 0;
+   
+    color: white;
+    padding: 40px;
+   
+ box-sizing: content-box;
+   }
+  .accordion-button{
+background-color:#63656A ;
+font-family: 'Popins', sans-serif;
+    font-weight: 900;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #e53a40 !important;
+    font-family: 'Popins',sans-serif;
+font-size: large;
+  }
+ .h1{
+  font-family: 'Popins',sans-serif;
+font-size: 45px;
+font-weight: 900;
+margin: 50px;
+
+justify-content: center;
+ }
+
+ .top-line{
+
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+font-size: large;
+ }
+ .navbar{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+ }
